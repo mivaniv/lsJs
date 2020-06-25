@@ -3,8 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="graph.css" />
 </head>
 <body>
+<section>
+    <div>
+<!--        <input type="button" value="Старт" name="getRnd" onclick="getRnd()">-->
+        <h3 class="winner">Переможець</h3>
+    </div>
+        <div class="variants">
+            <button id="Криниця"  value="Старт"  onclick="getRnd()" name="variant">Криниця</button>
+            <button id="Папір" value="Старт"  onclick="getRnd()" name="variant">Папір</button>
+            <button id="Ножиці" value="Старт"  onclick="getRnd()" name="variant">Ножиці</button>
 
+            <h4 class="variantsAI" id="variantsAI">Думаю</h4>
+        </div>
+
+</section>
+<script src="logic.js"></script>
 </body>
 </html>
+<!-- обновлення сторінки після визначення переможця-->
+<!--заміна слів на символи-->
